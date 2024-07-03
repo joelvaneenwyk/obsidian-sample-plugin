@@ -15,10 +15,8 @@
     "importHelpers": true,
     "isolatedModules": true,
     "strictNullChecks": true,
-    "lib": ["DOM", "ES5","ES6", "ES7"],
-    "typeRoots": [
-        "./src/@types"
-    ]
+    "lib": ["DOM", "ES5", "ES6", "ES7"],
+    "typeRoots": ["./src/@types"]
   },
   "include": ["**/*.ts", "./*.js", "./*.mjs"],
   "typeAcquisition": {
