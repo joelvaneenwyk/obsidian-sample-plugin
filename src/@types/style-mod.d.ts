@@ -1,7 +1,5 @@
 declare module 'style-mod' {
-  export class StyleModule {
-  }
+  export class StyleModule {}
 
-  export class StyleSpec {
-  }
+  export class StyleSpec {}
 }
