@@ -1,6 +1,0 @@
-#
-# ESLint ignore list for Obsidian plugins
-#
-
-node_modules/
-dist/
