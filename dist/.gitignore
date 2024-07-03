@@ -1,0 +1,14 @@
+#
+# Original guidance from Obsidian development team was "Don't include the
+# compiled 'main.js' file in the repo. They should be uploaded to GitHub
+# releases instead." This is good guidance in general and in this template
+# we have decided to include the generated file in the repository. Some
+# benefits with this approach:
+#
+#   - Allows for a more seamless experience for users who want to clone the
+#     repository and start working on the plugin right away.
+#   - Allows for clear comparison of changes between releases. This is why
+#     we do not minify the release by default.
+#
+
+ts/
