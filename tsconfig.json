@@ -5,15 +5,23 @@
     "forceConsistentCasingInFileNames": true,
     "inlineSourceMap": true,
     "inlineSources": true,
-    "module": "ESNext",
+    "outDir": "dist/ts/",
+    "noEmit": false,
+    "module": "Node16",
     "target": "ES6",
     "allowJs": true,
     "noImplicitAny": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Node16",
     "importHelpers": true,
     "isolatedModules": true,
     "strictNullChecks": true,
-    "lib": ["DOM", "ES5", "ES6", "ES7"]
+    "lib": ["DOM", "ES5","ES6", "ES7"],
+    "typeRoots": [
+        "./src/@types"
+    ]
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts", "./*.js", "./*.mjs"],
+  "typeAcquisition": {
+    "enable": true
+  }
 }
