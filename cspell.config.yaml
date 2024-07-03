@@ -1,0 +1,11 @@
+version: '0.2'
+ignorePaths: []
+dictionaryDefinitions:
+  - name: obsidian-md
+    path: ./config/obsidian-md.dict
+    addWords: true
+dictionaries:
+  - obsidian-md
+words: []
+ignoreWords: []
+import: []
